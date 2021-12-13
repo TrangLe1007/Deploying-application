@@ -5,8 +5,8 @@ import pandas as pd
 
 #Sidebar
 #Bio
-img=Image.open('E:\LAB\LAB\Thesis\Code App\Streamlit App\scott-graham-OQMZwNd3ThU-unsplash.jpg')
-st.sidebar.image(img)
+#img=Image.open('E:\LAB\LAB\Thesis\Code App\Streamlit App\scott-graham-OQMZwNd3ThU-unsplash.jpg')
+#st.sidebar.image(img)
 st.sidebar.markdown("#### About")
 st.sidebar.success("This web app helps you to analyze the salary of IT jobs in the Vietnam labor market")
 st.sidebar.markdown("#### Instruction")
