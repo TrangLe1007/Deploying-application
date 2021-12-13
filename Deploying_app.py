@@ -5,14 +5,14 @@ import pandas as pd
 
 #Sidebar
 #Bio
-#img=Image.open('E:\LAB\LAB\Thesis\Code App\Streamlit App\scott-graham-OQMZwNd3ThU-unsplash.jpg')
-#st.sidebar.image(img)
+img=Image.open('E:\LAB\LAB\Thesis\Code Publishing\scott-graham-OQMZwNd3ThU-unsplash.jpg')
+st.sidebar.image(img)
 st.sidebar.markdown("#### About")
 st.sidebar.success("This web app helps you to analyze the salary of IT jobs in the Vietnam labor market")
 st.sidebar.markdown("#### Instruction")
 st.sidebar.warning("Enter the required fields below and click on the 'Check' button to check")
 #data
-df =pd.read_csv('E:\LAB\LAB\Thesis\Code App\Data Cleaning\ITviec_database_without_duplicate_check.csv')
+df =pd.read_csv('E:\LAB\LAB\Thesis\Code Publishing\ITviec_database_without_duplicate_check.csv')
 #form
 with st.sidebar.form(key='form'):
     jobs= df['Title_job'].unique()
